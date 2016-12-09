@@ -90,7 +90,6 @@
       <a class="left carousel-control" href="#carousel-example" data-slide="prev"><i class="icon-prev  fa fa-angle-left"></i></a>
       <a class="right carousel-control" href="#carousel-example" data-slide="next"><i class="icon-next fa fa-angle-right"></i></a>
     </div>
-
     </div>
     <!-- /.intro-header -->
 
@@ -180,6 +179,7 @@
         <div class="col-sm-12" >
           <div class="panel panel-default">
             <div class="panel-body" id="ourPortpfolio">
+
               <img src="http://placehold.it/300x605" data-image="http://placehold.it/150x150"
               data-description="Image 1 Description" class="img-responsive img-thumbnail" alt="">
               <img src="http://placehold.it/150x150" data-image="http://placehold.it/150x150"
@@ -194,6 +194,7 @@
               data-description="Image 1 Description" class="img-responsive img-thumbnail" alt="">
               <img src="http://placehold.it/150x150" data-image="http://placehold.it/150x150"
               data-description="Image 1 Description" class="img-responsive img-thumbnail" alt="">
+
             </div>
           </div>
 
@@ -696,7 +697,7 @@
               </div>
 
 
-              
+
           </div>
         </div>
         <!-- /.container -->
