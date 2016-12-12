@@ -1,4 +1,9 @@
-
+new WOW().init();
+$('#nav').affix({
+offset: {
+	top: $('.atas').height()
+}
+	});
 jQuery(document).ready(function(){
 				jQuery("#ourPortpfolio").unitegallery({
 					tile_enable_image_effect:true,

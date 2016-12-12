@@ -34,17 +34,60 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 <style media="screen">
-
+  .facebook:hover{
+    color:blue;
+  }
+  .twitter:hover{
+    color:lightblue;
+  }
+  .instagram:hover{
+    color:rgb(127, 142, 140);
+  }
+  .linkid:hover{
+    color:rgb(84, 163, 214);
+  }
+  .google:hover{
+    color:red;
+  }
 </style>
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<!-- <body data-spy="scroll" data-target=".navbar" data-offset="50"> -->
+<body>
     <div class="atas">
+        <nav class="navbar navbar-primary" role="navigation" style="background-color:rgba(14, 14, 14, 0.86)">
+          <div class="clearfix">
+            <div class="navbar-header">
+              <a href="#" class="navbar-brand" style="color:lightyellow;">Dinar Energi Utama | Solusi Cerdas Bagi Anda</a>
+            </div>
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="#" class="facebook"><span class="fa fa-facebook "></span></a></li>
+                <li ><a href="#" class="twitter"><span class="fa fa-twitter"></span></a></li>
+                <li ><a href="#" ><span class="fa fa-instagram"></span></a></li>
+                <li ><a href="#" class="linkid"><span class="fa fa-linkedin"></span></a></li>
+                <li ><a href="#" class="google"><span class="fa fa-google-plus"></span></a></li>
+                <li ><a href="#" class="surat"><span class="fa fa-envelope-o"></span></a></li>
+            </ul>
+          </div>
+        </nav>
+      <div class="clearfix">
 
+          <div class="col-lg-12" style="background-color:img/banner-bg.jpg;">
+              <div class="col-xs-3 col-xs-offset-0 col-lg-4">
+                <img src="http://dinarproject.com/public/images/logodinar.png"  class="img-fluid" alt="">
+                <br><br><br>
+              </div>
+              <div class="col-xs-6 col-lg-6 col-xs-offset-2">
+                <br>
+              <img src="img/affix.JPG" alt="">
+              </div>
+          </div>
+
+      </div>
     </div>
     <!-- Navigation  navbar-fixed-top topnav -->
-    <nav class="navbar navbar-default affix" role="navigation" id="nav">
-        <div class="container topnav">
+    <nav class="navbar navbar-inverse" role="navigation" id="nav">
+        <div class="topnav">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -53,11 +96,20 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand topnav" href="/">Dinar Energi Utama</a>
+                <!-- <a class="navbar-brand topnav" href="/"><img src="img/1favicon.png" width="30" alt=""></a> -->
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav navbar-left">
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#ourservice">Service</a>
+                    </li>
+                    <li>
+                        <a href="#ourportofolio">Portofolio</a>
+                    </li>
                     <li>
                         <a href="#about">About</a>
                     </li>
@@ -817,12 +869,7 @@
     <script src="js/unslidermaster/dist/js/unslider-min.js" charset="utf-8"></script>
     <script src="js/owl/owl-carousel/owl.carousel.min.js"></script>
     <script type="text/javascript">
-    new WOW().init();
-    $('#nav').affix({
-    offset: {
-      top: $('.atas').height()
-    }
-      });
+
     </script>
 </body>
 
